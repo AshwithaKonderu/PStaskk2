@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //  <1.Create a program for booking movie tickets where a user chooses a movie and seat category. The options should be: -->
+
+      // Movie:
+
+      // Action: Standard Seat - 10rs, VIP Seat - 20rs
+
+      // Comedy: Standard Seat - 8rs, VIP Seat - 15rs
+
+      // Drama: Standard Seat -6rs, VIP Seat - 12rs -->
+
+      //   let movie = prompt("please Select The movie:'Comedy or Action or Drama' ");
+      //   let seat = prompt("please Select The seat:'Standard Seat or VIP Seat' ");
+      //   switch (movie) {
+      //     case "Action":
+      //       switch (seat) {
+      //         case "Standard Seat":
+      //           console.log(" 10rs");
+      //           break;
+      //         case "VIP Seat":
+      //           console.log(" 20rs");
+      //       }
+      //       break;
+      //     case "Comedy":
+      //       switch (seat) {
+      //         case "Standard Seats":
+      //           console.log("8rs");
+      //           break;
+      //           case "VIP Seats":
+      //           console.log(" 15rs")
+      //           break;
+      //       }
+      //       break;
+      //     case "Drama":
+      //         switch(Drama){
+      //             case "Standard Seat":
+      //       console.log("Standard  Seats - 6rs");break;
+      //       case "VIP Seat":
+      //       console.log("VIP Seats - 12rs");}
+      //       break;
+      //     default:
+      //       console.log("The Movie is Currently Unavailable");
+      //   }
+
+      //
+      //     3.Write a travel booking system that allows a user to select a mode of transport (Flight, Train, Bus) and then choose a class or category:
+
+      // Flight: Economy, Business
+
+      // Train: Sleeper, AC Class
+
+      //   Bus: Standard, Luxury
+      // let travels = prompt("Please select the mode of Transportation:'Flight or Bus or Train' ");
+      // let category=prompt("choose a class or catergory :economy/business , Sleeper/Ac,Standard/Luxury")
+
+      //   switch (travels) {
+      //  case"Flight" :
+      //    switch(category){
+      //     case "economy":
+      //      console.log("economy");
+      //      break;
+      //      case "business":
+      //      console.log("Business");}
+      //       break;
+
+      //     case "Train":
+      //         switch(category){
+      //             case "sleeper":
+      //       console.log("sleeper");
+      //       break;
+      //       case "AC class":
+      //       console.log("AC class");}
+      //       break;
+
+      //     case "Bus":
+      //         switch(category){
+      //             case "standard":
+      //       console.log("Standard");
+      //       break;
+      //       case "luxury":
+      //       console.log("Luxury");}
+      //       break;
+      //       default:
+      //           console.log("You Can Travel Through Bike");
+      //         }
+
+      let items = prompt(
+        "Please Select the product: Electronics or Clothing or Grocery"
+      );
+      let discount = prompt(
+        "please select the type of item: Mobile/Laptop or Men/Women or Fruits/Vegetables "
+      );
+      switch (items) {
+        case "Electronics":
+          switch (discount) {
+            case "mobile":
+              console.log(" 5%");
+              break;
+            case "Laptop":
+              console.log(" 10%");
+          }
+          break;
+
+        case "Clothing":
+          switch (discount) {
+            case "Men":
+              console.log("15%");
+              break;
+            case "Women":
+              console.log(" 20%");
+          }
+          break;
+
+        case "Grocery":
+          switch (discount) {
+            case "Fruits":
+              console.log(" 5%");
+              break;
+            case "Vegetables":
+              console.log(" 10%");
+          }
+          break;
+        default:
+          console.log("The Selected Products are Not Matched");
+      }
+    </script>
+  </body>
+</html>
